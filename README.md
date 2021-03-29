@@ -34,10 +34,10 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 
 - Usando _`python`_:
 ```ruby
-python3 WinEventView.py
+python3 .\\WinEventView.py
 ```
 
 - Usando o _`.exe`_:
 ```ruby
-.\dist\WinEventView.exe
+.\\dist\\WinEventView.exe
 ```
