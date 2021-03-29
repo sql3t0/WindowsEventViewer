@@ -21,23 +21,23 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 ## Criar Binario _`(.exe)`_
 
 - Gerar com console:
-```cmd
+```ruby
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile
 ```
 
 - Gerar sem console:
-```
+```ruby
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile --noconsole
 ```
 
 ## Executar
 
 - Usando _`python`_:
-```
+```ruby
 python3 WinEventView.py
 ```
 
 - Usando o _`.exe`_:
-```
+```ruby
 .\dist\WinEventView.exe
 ```
