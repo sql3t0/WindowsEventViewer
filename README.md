@@ -1,1 +1,1 @@
-# Windows Event Viwer _[`python`]_
+# Windows Event Viwer _`python`_
