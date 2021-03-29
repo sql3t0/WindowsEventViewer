@@ -16,8 +16,8 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 
 ## Configurações Iniciais
 
-1. `git clone https://github.com/sql3t0/WindowsEventViwer.git`
-2. `cd WindowsEventViwer`
+1. `git clone https://github.com/sql3t0/WindowsEventViewer.git`
+2. `cd WindowsEventViewer`
 3. `python3 -m pip install -r requirements.txt`
 
 ## Criar Binario _`(.exe)`_
