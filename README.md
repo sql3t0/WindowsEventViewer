@@ -30,7 +30,7 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile --noconsole
 ```
 
-## Run
+## Executar
 
 - Usando python:
 ```
