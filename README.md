@@ -4,6 +4,8 @@
 
 Ferramenta criada para listar e analisar todos os logs de eventos do sistema operacional _windows_ por meio de tabelas.
 
+> ![Demo](wev_demo.gif)
+
 ## Tecnologias Utilizadas
 
 > __`Python 3.7.0`:__
