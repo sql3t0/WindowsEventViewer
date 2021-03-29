@@ -21,7 +21,7 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 ## Criar Binario _`(.exe)`_
 
 - Gerar com console:
-```
+```cmd
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile
 ```
 
@@ -32,12 +32,12 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 
 ## Executar
 
-- Usando python:
+- Usando _`python`_:
 ```
 python3 WinEventView.py
 ```
 
-- Usando o _`.exe`_
+- Usando o _`.exe`_:
 ```
 .\dist\WinEventView.exe
 ```
