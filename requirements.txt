@@ -1,0 +1,4 @@
+Eel
+evtx
+pandas
+pyinstaller
