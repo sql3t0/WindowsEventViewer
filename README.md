@@ -12,7 +12,32 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 >- _Pandas_       (Conversão de .json para DataFrame e realização de filtros)
 >- _Pyinstaller_  (Criação do .exe apartir do codigo python)
 
-## Instalação
+## Configurações Iniciais
 
-1. `pip install -r requirements.txt`
-2. 
+1. `git clone https://github.com/sql3t0/WindowsEventViwer.git`
+2. `cd WindowsEventViwer`
+3. `python3 -m pip install -r requirements.txt`
+
+## Criar Binario _`(.exe)`_
+
+- Gerar com console:
+```
+{PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile
+```
+
+- Gerar sem console:
+```
+{PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile --noconsole
+```
+
+## Run
+
+- Usando python:
+```
+python3 WinEventView.py
+```
+
+- Usando o _`.exe`_
+```
+.\dist\WinEventView.exe
+```
