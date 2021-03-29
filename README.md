@@ -1,4 +1,4 @@
-# Windows Event Viwer _`(python)`_
+# Windows Event Viewer _`(python)`_
 
 ## Descrição
 
