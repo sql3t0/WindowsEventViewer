@@ -26,13 +26,13 @@ Ferramenta criada para listar e analisar todos os logs de eventos do sistema ope
 ```ruby
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile
 ```
-> Release: [WinEventView.VisibleConsole](https://github.com/sql3t0/WindowsEventViwer/releases/download/v1.0/WinEventView.VisibleConsole.exe)
+> Release: [WinEventView.VisibleConsole](https://github.com/sql3t0/WindowsEventViewer/releases/download/v1.0/WinEventView.VisibleConsole.exe)
 
 - Gerar sem console:
 ```ruby
 {PYTHON_FOLDER}\\Scripts\\pyinstaller.exe WinEventView.py --icon=event.ico --hidden-import bottle_websocket --add-data "{PYTHON_FOLDER}\\lib\\site-packages\\eel\\eel.js;eel" --uac-admin --onefile --noconsole
 ```
-> Release: [WinEventView](https://github.com/sql3t0/WindowsEventViwer/releases/download/v1.0/WinEventView.exe)
+> Release: [WinEventView](https://github.com/sql3t0/WindowsEventViewer/releases/download/v1.0/WinEventView.exe)
 
 ## Executar
 
